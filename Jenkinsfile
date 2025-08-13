@@ -8,12 +8,13 @@
         }
         stage('hello'){
             steps{
-                sh 'python3 demo2.py $x_value$ $y_value$'
+                sh 'python3 demo2.py $x_value $y_value'
             }
         }
     }
 
 }
+
 
 
 
